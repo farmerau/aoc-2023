@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace aoc_2023;
+namespace aoc_2023.DayOne;
 
 public class DayOne : ISolution
 {

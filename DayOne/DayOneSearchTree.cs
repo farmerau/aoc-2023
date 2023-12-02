@@ -1,4 +1,4 @@
-namespace aoc_2023;
+namespace aoc_2023.DayOne;
 
 public class DayOneSearchTree
 {
