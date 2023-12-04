@@ -120,6 +120,6 @@ public class DayOne : ISolution
         return (firstDigit.Value * 10) + lastDigit.Value;
     }
 
-    private bool IsDigit(char c) => c > 47 && c < 58;
-    private int ToDigit(char c) => c - 48;
+    private bool IsDigit(char c) => CharUtils.IsDigit(c);
+    private int ToDigit(char c) => CharUtils.ToDigit(c);
 }

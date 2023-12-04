@@ -2,10 +2,9 @@
 
 using aoc_2023;
 using aoc_2023.DayOne;
+using aoc_2023.DayThree;
 using aoc_2023.DayTwo;
 
-DayOne dayOne = new();
-DayTwo dayTwo = new();
-
-SolutionRunner.Run(dayOne);
-SolutionRunner.Run(dayTwo);
+// SolutionRunner.Run(new DayOne());
+// SolutionRunner.Run(new DayTwo());
+SolutionRunner.Run(new DayThree(), false);
