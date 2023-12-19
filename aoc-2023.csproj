@@ -13,6 +13,8 @@
       <None Include="$(SolutionDir)\Inputs\**">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
+
+
     </ItemGroup>
 
 
