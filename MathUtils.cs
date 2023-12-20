@@ -11,10 +11,10 @@ public static class MathUtils
 
     public static T LeastCommonMultiple<T>(T a, T b) where T : INumber<T>
     {
-        return a * b / GreatestCommonDenominator(a, b);
+        return a * b / GreatestCommonDivisor(a, b);
     }
 
-    public static T GreatestCommonDenominator<T>(T a, T b) where T : INumber<T>
+    public static T GreatestCommonDivisor<T>(T a, T b) where T : INumber<T>
     {
         while (b != T.Zero)
         {
