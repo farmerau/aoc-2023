@@ -4,6 +4,7 @@ using aoc_2023;
 using aoc_2023.DayFive;
 using aoc_2023.DayFour;
 using aoc_2023.DayOne;
+using aoc_2023.DaySeven;
 using aoc_2023.DaySix;
 using aoc_2023.DayThree;
 using aoc_2023.DayTwo;
@@ -13,5 +14,6 @@ SolutionRunner.Run(new DayTwo());
 SolutionRunner.Run(new DayThree());
 SolutionRunner.Run(new DayFour());
 // Only run Part 1 because Part Two is _slow_.
-SolutionRunner.Run(new DayFive(), SolutionRunner.Parts.One, false);
-SolutionRunner.Run(new DaySix(), runSample: false);
+SolutionRunner.Run(new DayFive(), SolutionRunner.Parts.One);
+SolutionRunner.Run(new DaySix());
+SolutionRunner.Run(new DaySeven());
