@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using aoc_2023;
+using aoc_2023.DayEight;
 using aoc_2023.DayFive;
 using aoc_2023.DayFour;
 using aoc_2023.DayOne;
@@ -17,3 +18,4 @@ SolutionRunner.Run(new DayFour());
 SolutionRunner.Run(new DayFive(), SolutionRunner.Parts.One);
 SolutionRunner.Run(new DaySix());
 SolutionRunner.Run(new DaySeven());
+SolutionRunner.Run(new DayEight());
